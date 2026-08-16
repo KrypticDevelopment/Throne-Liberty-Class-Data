@@ -1,17 +1,17 @@
 {
-  "version": "1.0.0",
+  "version": "1.2.0",
   "bosses": {
     "Morokai": {
       "level": "40",
       "type": "Field Boss",
-      "location": "Carmine Forest (southeast area)",
+      "location": "Carmine Forest (southeast)",
       "nearest_waypoint": "Starlight Observatory Ruins / Carmine Forest",
-      "requirements": "Open world. No special key required. Group or large party recommended.",
+      "requirements": "Open world. No special key. Group or large party recommended.",
       "spawn_windows": [
         "Multiple times daily (server-specific)",
         "Common pattern: afternoon + evening windows"
       ],
-      "spawn_note": "Spawn times differ by server and change. Always check Map → Events (Timetable).",
+      "spawn_note": "Times differ by server. Always check Map → Events (Timetable).",
       "notes": "One of the earlier Field Bosses. Good for learning mechanics.",
       "image": "assets/bosses/morokai.png",
       "loot": {
@@ -19,11 +19,15 @@
           "Conquest Participation Award: Morokai"
         ],
         "notable": [
-          "Morokai's Greatblade of Corruption (Greatsword)",
-          "Arcane Shadow Gloves",
-          "Abyssal Grace Pendant",
-          "Golem Shattering Sword",
-          "Resonance Blade"
+          "Morokai's Greatblade of Corruption (Greatsword) — Very Rare",
+          "Arcane Shadow Gloves — Rare",
+          "Abyssal Grace Pendant — Rare",
+          "Golem Shattering Sword — Uncommon",
+          "Resonance Blade — Uncommon",
+          "Golem Impaler Longbow — Uncommon",
+          "First Blood Longbow — Uncommon",
+          "Elusive Hexweaver Gloves — Uncommon",
+          "Decorated Champion Greaves — Uncommon"
         ]
       }
     },
@@ -31,24 +35,28 @@
       "level": "24–42",
       "type": "Field Boss",
       "location": "Monolith Wastelands",
-      "nearest_waypoint": "Monolith Wastelands / Abandoned Stonemason Town",
+      "nearest_waypoint": "Monolith Wastelands",
       "requirements": "Open world. Group recommended.",
       "spawn_windows": [
         "Multiple times daily (server-specific)"
       ],
-      "spawn_note": "Check in-game Timetable for exact times on your server.",
-      "notes": "Also known as King Mineboom-09 in some sources.",
+      "spawn_note": "Check in-game Timetable.",
+      "notes": "Also known as King Mineboom-09.",
       "image": "assets/bosses/excavator9.png",
       "loot": {
         "guaranteed": [
           "Conquest Participation Award: Excavator-9"
         ],
         "notable": [
-          "Excavator's Mysterious Scepter (Wand)",
-          "Heroic Breeches of the Resistance",
-          "Embossed Granite Band",
-          "Dead Reckoning Greatsword",
-          "Shadewalker Daggers"
+          "Excavator's Mysterious Scepter (Wand) — Very Rare",
+          "Heroic Breeches of the Resistance — Rare",
+          "Embossed Granite Band — Rare",
+          "Dead Reckoning Greatsword — Uncommon",
+          "Sword of Undead Vanquishing — Uncommon",
+          "Shadewalker Daggers — Uncommon",
+          "Longbow of Undead Skewering — Uncommon",
+          "Elusive Hexweaver Hat — Uncommon",
+          "Elusive Hexweaver Pants — Uncommon"
         ]
       }
     },
@@ -61,18 +69,24 @@
       "spawn_windows": [
         "Usually 1–2 times per day (server-specific)"
       ],
-      "spawn_note": "Server-specific. Confirm in Map → Events.",
-      "notes": "Watch for burrow + petrify spray mechanics.",
+      "spawn_note": "Confirm in Map → Events.",
+      "notes": "Watch for burrow + petrify spray.",
       "image": "assets/bosses/chernobog.png",
       "loot": {
         "guaranteed": [
           "Conquest Participation Award: Chernobog"
         ],
         "notable": [
-          "Chernobog's Blade of Beheading (Sword)",
-          "Helm of the Field General",
-          "Arcane Shadow Shoes",
-          "Bile Drenched Veil (Cloak)"
+          "Chernobog's Blade of Beheading (Sword) — Very Rare",
+          "Helm of the Field General — Rare",
+          "Arcane Shadow Shoes — Rare",
+          "Bile Drenched Veil (Cloak) — Rare",
+          "Daggers of the Resistance — Uncommon",
+          "Longbow of the Resistance — Uncommon",
+          "Viperstrike Arbalests — Uncommon",
+          "Wand of Skyward Blessing — Uncommon",
+          "Decorated Champion Crown — Uncommon",
+          "Soul Mirror Hand Guards — Uncommon"
         ]
       }
     },
@@ -93,10 +107,16 @@
           "Conquest Participation Award: Talus"
         ],
         "notable": [
-          "Talus's Crystalline Staff (Staff)",
-          "Phantom Wolf Mask",
-          "Blessed Templar Plate Mail",
-          "Forged Golden Bangle"
+          "Talus's Crystalline Staff — Very Rare",
+          "Phantom Wolf Mask — Rare",
+          "Blessed Templar Plate Mail — Rare",
+          "Forged Golden Bangle — Rare",
+          "Dead Reckoning Greatsword — Uncommon",
+          "Blade of the Resistance — Uncommon",
+          "Scepter of the Resistance — Uncommon",
+          "First Blood Longbow — Uncommon",
+          "Duskblood Mask — Uncommon",
+          "Resolute Crusader Gauntlets — Uncommon"
         ]
       }
     },
@@ -117,10 +137,16 @@
           "Conquest Participation Award: Malakar"
         ],
         "notable": [
-          "Malakar's Energizing Crossbows",
-          "Shock Commander Visor",
-          "Ebon Roar Gauntlets",
-          "Gilded Infernal Wristlet"
+          "Malakar's Energizing Crossbows — Very Rare",
+          "Shock Commander Visor — Rare",
+          "Ebon Roar Gauntlets — Rare",
+          "Gilded Infernal Wristlet — Rare",
+          "Broadsword of the Resistance — Uncommon",
+          "Blade of the Resistance — Uncommon",
+          "Resonance Blade — Uncommon",
+          "First Blood Longbow — Uncommon",
+          "Decorated Champion Boots — Uncommon",
+          "Duskblood Boots — Uncommon"
         ]
       }
     },
@@ -141,10 +167,16 @@
           "Conquest Participation Award: Adentus"
         ],
         "notable": [
-          "Adentus's Gargantuan Greatsword",
-          "Shadow Harvester Mask",
-          "Blessed Templar Helmet",
-          "Girdle of Spectral Skulls"
+          "Adentus's Gargantuan Greatsword — Very Rare",
+          "Shadow Harvester Mask — Rare",
+          "Blessed Templar Helmet — Rare",
+          "Girdle of Spectral Skulls — Rare",
+          "Daggers of the Resistance — Uncommon",
+          "Viperstrike Arbalests — Uncommon",
+          "Malevolent Staff — Uncommon",
+          "Scepter of the Resistance — Uncommon",
+          "Resolute Crusader Helmet — Uncommon",
+          "Soul Mirror Turban — Uncommon"
         ]
       }
     },
@@ -153,7 +185,7 @@
       "type": "Field Boss",
       "location": "Shadowed Crypt 1F",
       "nearest_waypoint": "Shadowed Crypt",
-      "requirements": "Open-world dungeon. Be inside before doors close if night cycle applies.",
+      "requirements": "Open-world dungeon. Be inside before doors close if applicable.",
       "spawn_windows": [
         "Server-specific – check Timetable"
       ],
@@ -165,10 +197,14 @@
           "Conquest Participation Award: Minezerok"
         ],
         "notable": [
-          "Minzerok's Daggers of Crippling",
-          "Phantom Wolf Boots",
-          "Divine Justiciar Gloves",
-          "Blessed Templar Choker"
+          "Minzerok's Daggers of Crippling — Very Rare",
+          "Phantom Wolf Boots — Rare",
+          "Divine Justiciar Gloves — Rare",
+          "Blessed Templar Choker — Rare",
+          "Golem Grinding Greatsword — Uncommon",
+          "Shadewalker Daggers — Uncommon",
+          "Golem Dismantler Crossbows — Uncommon",
+          "Wand of Skyward Blessing — Uncommon"
         ]
       }
     },
@@ -182,17 +218,22 @@
         "Server-specific – check Timetable"
       ],
       "spawn_note": "Always verify in-game.",
-      "notes": "",
+      "notes": "Highly valued for Shadow Harvester Trousers.",
       "image": "assets/bosses/junobote.png",
       "loot": {
         "guaranteed": [
           "Conquest Participation Award: Junobote"
         ],
         "notable": [
-          "Junobote's Juggernaut Warblade",
-          "Shadow Harvester Trousers",
-          "Arcane Shadow Robes",
-          "Forsaken Embrace (Cloak)"
+          "Junobote's Juggernaut Warblade — Very Rare",
+          "Shadow Harvester Trousers — Very Rare",
+          "Arcane Shadow Robes — Rare",
+          "Forsaken Embrace (Cloak) — Rare",
+          "Sword of Undead Vanquishing — Uncommon",
+          "Viperstrike Arbalests — Uncommon",
+          "Longbow of Undead Skewering — Uncommon",
+          "Wand of Skyward Blessing — Uncommon",
+          "Gladiator's Girdle — Uncommon"
         ]
       }
     },
@@ -213,10 +254,11 @@
           "Conquest Participation Award: Kowazan"
         ],
         "notable": [
-          "Kowazan's Twilight Daggers",
-          "Shock Commander Sabatons",
-          "Arcane Shadow Hat",
-          "Collar of Decimation"
+          "Kowazan's Twilight Daggers — Very Rare",
+          "Kowazan's Sunflare Crossbows — Very Rare",
+          "Shock Commander Sabatons — Rare",
+          "Arcane Shadow Hat — Rare",
+          "Collar of Decimation — Rare"
         ]
       }
     },
@@ -237,10 +279,16 @@
           "Conquest Participation Award: Grand Aelon"
         ],
         "notable": [
-          "Aelon's Rejuvenating Longbow",
-          "Ascended Guardian Raiment",
-          "Arcane Shadow Pants",
-          "Wrapped Coin Necklace"
+          "Aelon's Rejuvenating Longbow — Very Rare",
+          "Greaves of the Field General — Rare",
+          "Arcane Shadow Pants — Rare",
+          "Wrapped Coin Necklace — Rare",
+          "Dead Reckoning Greatsword — Uncommon",
+          "Golem Shattering Sword — Uncommon",
+          "Shadewalker Daggers — Uncommon",
+          "Golem Impaler Longbow — Uncommon",
+          "Alacritous Invoker Shoes — Uncommon",
+          "Ornate Choker — Uncommon"
         ]
       }
     },
@@ -261,10 +309,16 @@
           "Conquest Participation Award: Aridus"
         ],
         "notable": [
-          "Aridus's Gnarled Voidstaff",
-          "Phantom Wolf Breeches",
-          "Breeches of the Executioner",
-          "Belt of Bloodlust"
+          "Aridus's Gnarled Voidstaff — Very Rare",
+          "Phantom Wolf Breeches — Rare",
+          "Breeches of the Executioner — Rare",
+          "Belt of Bloodlust — Rare",
+          "Golem Chiseling Daggers — Uncommon",
+          "Viperstrike Arbalests — Uncommon",
+          "Golem Destruction Staff — Uncommon",
+          "Malevolent Staff — Uncommon",
+          "Duskblood Gloves — Uncommon",
+          "Ruby Bangle — Uncommon"
         ]
       }
     },
@@ -285,8 +339,8 @@
           "Conquest Participation Award: Cornelius"
         ],
         "notable": [
-          "Various resistance and shadow set pieces",
-          "High-tier weapons (patch dependent)"
+          "Cornelius's Animated Edge — Very Rare",
+          "Various resistance and shadow set pieces — Rare / Uncommon"
         ]
       }
     },
@@ -307,7 +361,15 @@
           "Conquest Participation Award: Nirma"
         ],
         "notable": [
-          "Various high-tier weapons and accessories"
+          "Nirma's Sword of Echoes — Very Rare",
+          "Ascended Guardian Pants — Rare",
+          "Divine Justiciar Shoes — Rare",
+          "Clasp of the Overlord — Rare",
+          "Golem Grinding Greatsword — Uncommon",
+          "Shadewalker Daggers — Uncommon",
+          "Golem Dismantler Crossbows — Uncommon",
+          "Wand of Skyward Blessing — Uncommon",
+          "Alacritous Invoker Gloves — Uncommon"
         ]
       }
     },
@@ -328,7 +390,10 @@
           "Conquest Participation Award: Ahzreil"
         ],
         "notable": [
-          "Various high-tier weapons and gear (patch dependent)"
+          "Ahzreil's Siphoning Sword — Very Rare",
+          "Swirling Essence Pants — Rare",
+          "Divine Justiciar Pants — Rare",
+          "Blessed Templar Cloak — Rare"
         ]
       }
     },
@@ -337,22 +402,29 @@
       "type": "Archboss",
       "location": "Sandworm Lair – Queen's Trap (northwest)",
       "nearest_waypoint": "Ant Nest or Sandworm Lair",
-      "requirements": "Large coordinated group / guild strongly recommended. High damage environment.",
+      "requirements": "Large coordinated group / guild strongly recommended.",
       "spawn_windows": [
         "Scheduled Archboss (limited weekly windows)",
         "Exact day + hour is server-specific"
       ],
-      "spawn_note": "Major Archboss. Always check the in-game Timetable for your server.",
-      "notes": "Also has a roaming form in Moonlight Desert that can drop crafting materials.",
+      "spawn_note": "Major Archboss. Always check the in-game Timetable.",
+      "notes": "Also has a roaming form in Moonlight Desert that can drop Carapace.",
       "image": "assets/bosses/bellandir.png",
       "loot": {
         "guaranteed": [
           "Conquest Participation Award: Queen Bellandir"
         ],
         "notable": [
-          "Archboss weapons (Bellandir line)",
-          "High-value materials",
-          "Exclusive Archboss rewards"
+          "Queen Bellandir's Languishing Blade — Extremely Rare",
+          "Queen Bellandir's Toxic Spine Throwers — Extremely Rare",
+          "Queen Bellandir's Hivemind Staff — Extremely Rare",
+          "Sabatons of the Field General — Rare",
+          "Phantom Wolf Boots — Rare",
+          "Ascended Guardian Shoes — Rare",
+          "Band of Universal Power — Rare",
+          "Queen Bellandir's Carapace — Rare",
+          "Queen Bellandir's Core / Soul Fragment — Rare",
+          "Morrigan Raven — Uncommon"
         ]
       }
     },
@@ -366,7 +438,7 @@
         "Scheduled Archboss (limited weekly windows)",
         "Exact day + hour is server-specific"
       ],
-      "spawn_note": "Major Archboss. Always check the in-game Timetable for your server.",
+      "spawn_note": "Major Archboss. Always check the in-game Timetable.",
       "notes": "",
       "image": "assets/bosses/tevent.png",
       "loot": {
@@ -374,9 +446,15 @@
           "Conquest Participation Award: Tevent"
         ],
         "notable": [
-          "Archboss weapons (Tevent line)",
-          "High-value materials",
-          "Exclusive Archboss rewards"
+          "Tevent's Warblade of Despair — Extremely Rare",
+          "Tevent's Fangs of Fury — Extremely Rare",
+          "Tevent's Arc of Wailing Death — Extremely Rare",
+          "Tevent's Grasp of Withering — Extremely Rare",
+          "Shock Commander Gauntlets / Greaves — Rare",
+          "Shadow Harvester Grips / Boots — Rare",
+          "Swirling Essence Gloves — Rare",
+          "Tevent's Soul Fragment — Rare",
+          "Frost Lutrang — Uncommon"
         ]
       }
     },
@@ -388,19 +466,26 @@
       "requirements": "Higher-level content. Strong group recommended.",
       "spawn_windows": [
         "Multiple times daily (server-specific)",
-        "Reported UTC examples in the past: 00:00 / 12:00 / 19:00"
+        "Reported UTC examples: 00:00 / 12:00 / 19:00"
       ],
       "spawn_note": "Always confirm current times in the in-game Timetable.",
-      "notes": "Talandre content. Introduced with Wilds of Talandre.",
+      "notes": "Talandre content. Drops Tier 2 gear.",
       "image": "assets/bosses/leviathan.png",
       "loot": {
         "guaranteed": [
-          "Participation rewards"
+          "Conquest Participation Award: Leviathan"
         ],
         "notable": [
-          "Leviathan’s Bloodstorm Longbow",
-          "Leviathan’s Bladed Tendrils",
-          "Other Tier 2 weapons / materials"
+          "Leviathan’s Bloodstorm Longbow — Extremely Rare",
+          "Leviathan’s Bladed Tendrils — Extremely Rare",
+          "Spectral Overseer's Handguards — Rare",
+          "Royal Praetor's Gauntlets — Rare",
+          "Imperial Seeker's Gloves — Rare",
+          "Sacred Repose Gloves — Rare",
+          "First Light's Halo — Rare",
+          "Band of Ancestor's Blood — Rare",
+          "Bracelet of the Violent Underflow — Rare",
+          "Thunderstorm Necklace — Rare"
         ]
       }
     }
