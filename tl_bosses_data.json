@@ -1,0 +1,408 @@
+{
+  "version": "1.0.0",
+  "bosses": {
+    "Morokai": {
+      "level": "40",
+      "type": "Field Boss",
+      "location": "Carmine Forest (southeast area)",
+      "nearest_waypoint": "Starlight Observatory Ruins / Carmine Forest",
+      "requirements": "Open world. No special key required. Group or large party recommended.",
+      "spawn_windows": [
+        "Multiple times daily (server-specific)",
+        "Common pattern: afternoon + evening windows"
+      ],
+      "spawn_note": "Spawn times differ by server and change. Always check Map → Events (Timetable).",
+      "notes": "One of the earlier Field Bosses. Good for learning mechanics.",
+      "image": "assets/bosses/morokai.png",
+      "loot": {
+        "guaranteed": [
+          "Conquest Participation Award: Morokai"
+        ],
+        "notable": [
+          "Morokai's Greatblade of Corruption (Greatsword)",
+          "Arcane Shadow Gloves",
+          "Abyssal Grace Pendant",
+          "Golem Shattering Sword",
+          "Resonance Blade"
+        ]
+      }
+    },
+    "Excavator-9": {
+      "level": "24–42",
+      "type": "Field Boss",
+      "location": "Monolith Wastelands",
+      "nearest_waypoint": "Monolith Wastelands / Abandoned Stonemason Town",
+      "requirements": "Open world. Group recommended.",
+      "spawn_windows": [
+        "Multiple times daily (server-specific)"
+      ],
+      "spawn_note": "Check in-game Timetable for exact times on your server.",
+      "notes": "Also known as King Mineboom-09 in some sources.",
+      "image": "assets/bosses/excavator9.png",
+      "loot": {
+        "guaranteed": [
+          "Conquest Participation Award: Excavator-9"
+        ],
+        "notable": [
+          "Excavator's Mysterious Scepter (Wand)",
+          "Heroic Breeches of the Resistance",
+          "Embossed Granite Band",
+          "Dead Reckoning Greatsword",
+          "Shadewalker Daggers"
+        ]
+      }
+    },
+    "Chernobog": {
+      "level": "44",
+      "type": "Field Boss",
+      "location": "Abandoned Stonemason Town (northern edge)",
+      "nearest_waypoint": "Abandoned Stonemason Town",
+      "requirements": "Open world. Group recommended.",
+      "spawn_windows": [
+        "Usually 1–2 times per day (server-specific)"
+      ],
+      "spawn_note": "Server-specific. Confirm in Map → Events.",
+      "notes": "Watch for burrow + petrify spray mechanics.",
+      "image": "assets/bosses/chernobog.png",
+      "loot": {
+        "guaranteed": [
+          "Conquest Participation Award: Chernobog"
+        ],
+        "notable": [
+          "Chernobog's Blade of Beheading (Sword)",
+          "Helm of the Field General",
+          "Arcane Shadow Shoes",
+          "Bile Drenched Veil (Cloak)"
+        ]
+      }
+    },
+    "Talus": {
+      "level": "46",
+      "type": "Field Boss",
+      "location": "The Raging Wilds",
+      "nearest_waypoint": "Raging Wilds",
+      "requirements": "Open world. Group recommended.",
+      "spawn_windows": [
+        "Server-specific – check Timetable"
+      ],
+      "spawn_note": "Always verify in-game.",
+      "notes": "",
+      "image": "assets/bosses/talus.png",
+      "loot": {
+        "guaranteed": [
+          "Conquest Participation Award: Talus"
+        ],
+        "notable": [
+          "Talus's Crystalline Staff (Staff)",
+          "Phantom Wolf Mask",
+          "Blessed Templar Plate Mail",
+          "Forged Golden Bangle"
+        ]
+      }
+    },
+    "Malakar": {
+      "level": "48",
+      "type": "Field Boss",
+      "location": "Manawastes (northeast, above ground)",
+      "nearest_waypoint": "Manawastes",
+      "requirements": "Open world. Strong group recommended.",
+      "spawn_windows": [
+        "Server-specific – check Timetable"
+      ],
+      "spawn_note": "Always verify in-game.",
+      "notes": "Dangerous teleport + vacuum / petrify combo.",
+      "image": "assets/bosses/malakar.png",
+      "loot": {
+        "guaranteed": [
+          "Conquest Participation Award: Malakar"
+        ],
+        "notable": [
+          "Malakar's Energizing Crossbows",
+          "Shock Commander Visor",
+          "Ebon Roar Gauntlets",
+          "Gilded Infernal Wristlet"
+        ]
+      }
+    },
+    "Adentus": {
+      "level": "50",
+      "type": "Field Boss",
+      "location": "Ruins of Turayne (southern section)",
+      "nearest_waypoint": "Ruins of Turayne / Purelight Tower",
+      "requirements": "Open world. Strong group or raid recommended.",
+      "spawn_windows": [
+        "Server-specific – check Timetable"
+      ],
+      "spawn_note": "Always verify in-game.",
+      "notes": "",
+      "image": "assets/bosses/adentus.png",
+      "loot": {
+        "guaranteed": [
+          "Conquest Participation Award: Adentus"
+        ],
+        "notable": [
+          "Adentus's Gargantuan Greatsword",
+          "Shadow Harvester Mask",
+          "Blessed Templar Helmet",
+          "Girdle of Spectral Skulls"
+        ]
+      }
+    },
+    "Minezerok": {
+      "level": "50",
+      "type": "Field Boss",
+      "location": "Shadowed Crypt 1F",
+      "nearest_waypoint": "Shadowed Crypt",
+      "requirements": "Open-world dungeon. Be inside before doors close if night cycle applies.",
+      "spawn_windows": [
+        "Server-specific – check Timetable"
+      ],
+      "spawn_note": "Always verify in-game.",
+      "notes": "",
+      "image": "assets/bosses/minezerok.png",
+      "loot": {
+        "guaranteed": [
+          "Conquest Participation Award: Minezerok"
+        ],
+        "notable": [
+          "Minzerok's Daggers of Crippling",
+          "Phantom Wolf Boots",
+          "Divine Justiciar Gloves",
+          "Blessed Templar Choker"
+        ]
+      }
+    },
+    "Junobote": {
+      "level": "50",
+      "type": "Field Boss",
+      "location": "Sanctum of Desire",
+      "nearest_waypoint": "Sanctum of Desire",
+      "requirements": "Strong group recommended.",
+      "spawn_windows": [
+        "Server-specific – check Timetable"
+      ],
+      "spawn_note": "Always verify in-game.",
+      "notes": "",
+      "image": "assets/bosses/junobote.png",
+      "loot": {
+        "guaranteed": [
+          "Conquest Participation Award: Junobote"
+        ],
+        "notable": [
+          "Junobote's Juggernaut Warblade",
+          "Shadow Harvester Trousers",
+          "Arcane Shadow Robes",
+          "Forsaken Embrace (Cloak)"
+        ]
+      }
+    },
+    "Kowazan": {
+      "level": "50",
+      "type": "Field Boss",
+      "location": "Grayclaw Forest",
+      "nearest_waypoint": "Grayclaw Forest / Fang Village",
+      "requirements": "Open world. Strong group recommended.",
+      "spawn_windows": [
+        "Server-specific – check Timetable"
+      ],
+      "spawn_note": "Always verify in-game.",
+      "notes": "",
+      "image": "assets/bosses/kowazan.png",
+      "loot": {
+        "guaranteed": [
+          "Conquest Participation Award: Kowazan"
+        ],
+        "notable": [
+          "Kowazan's Twilight Daggers",
+          "Shock Commander Sabatons",
+          "Arcane Shadow Hat",
+          "Collar of Decimation"
+        ]
+      }
+    },
+    "Grand Aelon": {
+      "level": "50",
+      "type": "Field Boss",
+      "location": "Purelight Hill (eastern edge)",
+      "nearest_waypoint": "Purelight Tower / Purelight Hill",
+      "requirements": "Open world. Strong group recommended.",
+      "spawn_windows": [
+        "Server-specific – check Timetable"
+      ],
+      "spawn_note": "Always verify in-game.",
+      "notes": "",
+      "image": "assets/bosses/grand_aelon.png",
+      "loot": {
+        "guaranteed": [
+          "Conquest Participation Award: Grand Aelon"
+        ],
+        "notable": [
+          "Aelon's Rejuvenating Longbow",
+          "Ascended Guardian Raiment",
+          "Arcane Shadow Pants",
+          "Wrapped Coin Necklace"
+        ]
+      }
+    },
+    "Aridus": {
+      "level": "50",
+      "type": "Field Boss",
+      "location": "Syleus's Abyss 5F",
+      "nearest_waypoint": "Syleus's Abyss",
+      "requirements": "Must be inside the abyss. Enter early if doors close at night.",
+      "spawn_windows": [
+        "Server-specific – check Timetable"
+      ],
+      "spawn_note": "Be inside early. Confirm times in-game.",
+      "notes": "Wasps are needed for the sleep mechanic — do not kill them all.",
+      "image": "assets/bosses/aridus.png",
+      "loot": {
+        "guaranteed": [
+          "Conquest Participation Award: Aridus"
+        ],
+        "notable": [
+          "Aridus's Gnarled Voidstaff",
+          "Phantom Wolf Breeches",
+          "Breeches of the Executioner",
+          "Belt of Bloodlust"
+        ]
+      }
+    },
+    "Cornelius": {
+      "level": "50",
+      "type": "Field Boss",
+      "location": "Syleus's Abyss 3F – Hall of Immortality",
+      "nearest_waypoint": "Syleus's Abyss",
+      "requirements": "Must be inside. Enter early if night cycle closes doors.",
+      "spawn_windows": [
+        "Server-specific – check Timetable"
+      ],
+      "spawn_note": "Always verify in-game.",
+      "notes": "Blue/Red mark mechanics are deadly if players stack.",
+      "image": "assets/bosses/cornelius.png",
+      "loot": {
+        "guaranteed": [
+          "Conquest Participation Award: Cornelius"
+        ],
+        "notable": [
+          "Various resistance and shadow set pieces",
+          "High-tier weapons (patch dependent)"
+        ]
+      }
+    },
+    "Nirma": {
+      "level": "50",
+      "type": "Field Boss",
+      "location": "Syleus's Abyss 6F",
+      "nearest_waypoint": "Syleus's Abyss",
+      "requirements": "Must be inside the abyss.",
+      "spawn_windows": [
+        "Server-specific – check Timetable"
+      ],
+      "spawn_note": "Always verify in-game.",
+      "notes": "",
+      "image": "assets/bosses/nirma.png",
+      "loot": {
+        "guaranteed": [
+          "Conquest Participation Award: Nirma"
+        ],
+        "notable": [
+          "Various high-tier weapons and accessories"
+        ]
+      }
+    },
+    "Ahzreil": {
+      "level": "50",
+      "type": "Field Boss",
+      "location": "Light Sanctum / Abandoned Temple area",
+      "nearest_waypoint": "Light Sanctum Ruins / Purelight Tower",
+      "requirements": "Open world. Strong group recommended.",
+      "spawn_windows": [
+        "Server-specific – check Timetable"
+      ],
+      "spawn_note": "Always verify in-game.",
+      "notes": "",
+      "image": "assets/bosses/ahzreil.png",
+      "loot": {
+        "guaranteed": [
+          "Conquest Participation Award: Ahzreil"
+        ],
+        "notable": [
+          "Various high-tier weapons and gear (patch dependent)"
+        ]
+      }
+    },
+    "Queen Bellandir": {
+      "level": "50+",
+      "type": "Archboss",
+      "location": "Sandworm Lair – Queen's Trap (northwest)",
+      "nearest_waypoint": "Ant Nest or Sandworm Lair",
+      "requirements": "Large coordinated group / guild strongly recommended. High damage environment.",
+      "spawn_windows": [
+        "Scheduled Archboss (limited weekly windows)",
+        "Exact day + hour is server-specific"
+      ],
+      "spawn_note": "Major Archboss. Always check the in-game Timetable for your server.",
+      "notes": "Also has a roaming form in Moonlight Desert that can drop crafting materials.",
+      "image": "assets/bosses/bellandir.png",
+      "loot": {
+        "guaranteed": [
+          "Conquest Participation Award: Queen Bellandir"
+        ],
+        "notable": [
+          "Archboss weapons (Bellandir line)",
+          "High-value materials",
+          "Exclusive Archboss rewards"
+        ]
+      }
+    },
+    "Tevent": {
+      "level": "50+",
+      "type": "Archboss",
+      "location": "Ruins of Turayne – Tevent Temple (northwest edge)",
+      "nearest_waypoint": "Watcher's Post or Shadowed Crypt",
+      "requirements": "Large coordinated group / guild strongly recommended.",
+      "spawn_windows": [
+        "Scheduled Archboss (limited weekly windows)",
+        "Exact day + hour is server-specific"
+      ],
+      "spawn_note": "Major Archboss. Always check the in-game Timetable for your server.",
+      "notes": "",
+      "image": "assets/bosses/tevent.png",
+      "loot": {
+        "guaranteed": [
+          "Conquest Participation Award: Tevent"
+        ],
+        "notable": [
+          "Archboss weapons (Tevent line)",
+          "High-value materials",
+          "Exclusive Archboss rewards"
+        ]
+      }
+    },
+    "Leviathan": {
+      "level": "55+",
+      "type": "World / Field Boss",
+      "location": "Swamp of Silence – Leviathan’s Nest (Talandre)",
+      "nearest_waypoint": "Swamp of Silence",
+      "requirements": "Higher-level content. Strong group recommended.",
+      "spawn_windows": [
+        "Multiple times daily (server-specific)",
+        "Reported UTC examples in the past: 00:00 / 12:00 / 19:00"
+      ],
+      "spawn_note": "Always confirm current times in the in-game Timetable.",
+      "notes": "Talandre content. Introduced with Wilds of Talandre.",
+      "image": "assets/bosses/leviathan.png",
+      "loot": {
+        "guaranteed": [
+          "Participation rewards"
+        ],
+        "notable": [
+          "Leviathan’s Bloodstorm Longbow",
+          "Leviathan’s Bladed Tendrils",
+          "Other Tier 2 weapons / materials"
+        ]
+      }
+    }
+  }
+}
