@@ -1,0 +1,582 @@
+{
+  "version": "2026.08.16",
+  "classes": {
+    "Ravager": {
+      "weapons": [
+        "Greatsword",
+        "Dagger"
+      ],
+      "role": "Melee DPS",
+      "tagline": "Sustained melee assassin — huge single-target DPS.",
+      "overview": "Ravager blends the Greatsword's heavy AoE pressure with the Dagger's critical-hit burst. It plays like a bruiser that snowballs into a melee assassin: build up Heavy Attack chance and crit through the fight, then chain Dagger combos into finishers while your target is crowd-controlled.",
+      "strengths": [
+        "Very high sustained single-target DPS",
+        "Strong burst windows",
+        "Good self-sustain from Greatsword"
+      ],
+      "weaknesses": [
+        "High skill ceiling / positioning-dependent",
+        "Limited AoE compared to pure Greatsword builds"
+      ],
+      "stat_priority": "Strength (primary) > Dexterity (secondary) — Strength scales damage & HP via Vital Force, Dexterity raises Heavy Attack and crit chance.",
+      "perks": [
+        "Vital Force (Greatsword passive) — bonus HP and damage scaling from Strength",
+        "Cold Warrior (Greatsword passive) — enhanced damage while target is debuffed",
+        "Merciless Form (Dagger passive) — attack speed and bonus damage after landing crits",
+        "Prioritize Critical Hit Chance / Critical Damage runes on both weapons"
+      ],
+      "rotation": "Open with a Greatsword gap-closer + CC, weave in Dagger backstab/positional skills for crit, finish with your hardest-hitting combo while the target is stunned.",
+      "best_for": "Dungeon bosses, PvE single-target DPS, small-scale PvP assassination."
+    },
+    "Crusader": {
+      "weapons": [
+        "Greatsword",
+        "Sword & Shield"
+      ],
+      "role": "Tank",
+      "tagline": "Frontline threat generator with real damage output.",
+      "overview": "Crusader swaps pure survivability for a more offensive tank profile. Sword & Shield anchors your defense and threat, while the Greatsword adds genuine AoE damage so you're not just a punching bag in group content.",
+      "strengths": [
+        "Strong threat generation",
+        "Good AoE damage for a tank",
+        "Durable in prolonged fights"
+      ],
+      "weaknesses": [
+        "Less pure survivability than a full Sword & Shield build",
+        "Weaker mobility"
+      ],
+      "stat_priority": "Strength (primary) > Constitution — balance damage scaling with enough HP/defense to hold aggro.",
+      "perks": [
+        "Shield Bash / taunt line skills to lock down threat",
+        "Vital Force (Greatsword) for HP scaling",
+        "Block-focused passives from Sword & Shield mastery",
+        "Defense runes on the Shield, damage runes on the Greatsword"
+      ],
+      "rotation": "Open with taunt/CC to secure aggro, cycle block and defensive cooldowns, weave Greatsword AoE between mitigation windows.",
+      "best_for": "Dungeon and raid tanking where the group also needs extra damage."
+    },
+    "Warden": {
+      "weapons": [
+        "Sword & Shield",
+        "Longbow"
+      ],
+      "role": "Tank",
+      "tagline": "The classic, most durable tank build.",
+      "overview": "Warden is the go-to pure defensive tank. Sword & Shield provides the bulk of your mitigation and CC while Longbow gives you a way to peel, kite, and apply ranged utility when melee range isn't ideal.",
+      "strengths": [
+        "Excellent survivability",
+        "Strong CC toolkit",
+        "Good utility/peel"
+      ],
+      "weaknesses": [
+        "Lower personal damage output",
+        "Longbow is mostly utility here, not a damage focus"
+      ],
+      "stat_priority": "Constitution (primary) > Perception/Dexterity — stack HP and defense first, then just enough offense to stay relevant.",
+      "perks": [
+        "Shield-line block & taunt passives",
+        "Crowd-control chain skills (stuns/knockdowns) for group safety",
+        "Longbow utility skills for ranged pulls and kiting",
+        "Defense and HP runes on Sword & Shield"
+      ],
+      "rotation": "Pull with Longbow if needed, taunt on engage, cycle block/CC to control adds and protect the healer.",
+      "best_for": "Guild raids, world bosses, and any content that demands maximum survivability."
+    },
+    "Berserker": {
+      "weapons": [
+        "Sword & Shield",
+        "Dagger"
+      ],
+      "role": "Tank",
+      "tagline": "Aggressive off-tank / bruiser hybrid.",
+      "overview": "Berserker trades some of Warden's raw durability for burst and mobility, using the Dagger to punish exposed targets while still leaning on the Shield for block and CC.",
+      "strengths": [
+        "Good burst for a tank archetype",
+        "Solid single-target pressure",
+        "Mobile"
+      ],
+      "weaknesses": [
+        "Less group utility than Warden",
+        "Squishier than a pure Shield build"
+      ],
+      "stat_priority": "Strength/Dexterity (offense) balanced with enough Constitution to survive.",
+      "perks": [
+        "Merciless Form (Dagger) for post-crit attack speed",
+        "Shield block/parry passives",
+        "Positional Dagger skills for bonus damage from flank/rear",
+        "Mixed crit and defense runes"
+      ],
+      "rotation": "Engage with Shield CC, swap to Dagger for burst on a controlled target, fall back to block when cooldowns are down.",
+      "best_for": "Small-scale PvP and solo/duo open-world play."
+    },
+    "Raider": {
+      "weapons": [
+        "Sword & Shield",
+        "Crossbow"
+      ],
+      "role": "Tank",
+      "tagline": "Ranged-poke tank with strong pull/CC utility.",
+      "overview": "Raider keeps the Shield's defensive core but swaps the offhand for Crossbow, giving you ranged burst windows and pull utility before enemies ever reach melee range.",
+      "strengths": [
+        "Ranged CC/pull options",
+        "Good burst damage for a tank",
+        "Flexible engage range"
+      ],
+      "weaknesses": [
+        "Weaker sustained tanking than Warden",
+        "Crossbow stamina management can be tricky"
+      ],
+      "stat_priority": "Constitution first, Dexterity second for Crossbow burst windows.",
+      "perks": [
+        "Crossbow burst/pull skills to control engagements",
+        "Shield block and taunt passives",
+        "Hybrid crit/defense rune setup"
+      ],
+      "rotation": "Pull with Crossbow, taunt on contact, alternate block phases with Crossbow burst windows.",
+      "best_for": "Open-world skirmishes and flexible group tanking."
+    },
+    "Templar": {
+      "weapons": [
+        "Sword & Shield",
+        "Wand & Tome"
+      ],
+      "role": "Support",
+      "tagline": "The premier tank/healer hybrid — unmatched party sustain.",
+      "overview": "Templar pairs the Shield's mitigation with the Wand's healing and debuff toolkit, making it one of the strongest support-tank hybrids in the game — equally frustrating to fight in PvP and invaluable in PvE.",
+      "strengths": [
+        "Excellent self- and party-sustain",
+        "Strong CC and debuffs",
+        "Very PvP-relevant"
+      ],
+      "weaknesses": [
+        "Lower raw damage output",
+        "Mana management under pressure"
+      ],
+      "stat_priority": "Constitution/Wisdom balance — enough HP to tank, enough Wisdom for healing throughput.",
+      "perks": [
+        "Wand healing-over-time and cleanse skills",
+        "Shield block/taunt passives",
+        "Debuff-focused Wand nodes to weaken enemy damage",
+        "Defense + healing-power runes"
+      ],
+      "rotation": "Hold aggro with Shield skills, weave Wand heals/cleanses on cooldown, use debuffs to reduce incoming damage on the party.",
+      "best_for": "Guild wars, sieges, and any content wanting a tank that can also heal."
+    },
+    "Disciple": {
+      "weapons": [
+        "Sword & Shield",
+        "Staff"
+      ],
+      "role": "Support",
+      "tagline": "Defensive caster hybrid — utility over raw healing.",
+      "overview": "Disciple leans on the Shield for protection while using the Staff's elemental kit for ranged pressure and utility, playing more like a battle-mage support than a dedicated healer.",
+      "strengths": [
+        "Good survivability",
+        "Ranged utility",
+        "Flexible in group content"
+      ],
+      "weaknesses": [
+        "Not a primary healer or primary tank",
+        "Split stat investment"
+      ],
+      "stat_priority": "Constitution first, Intelligence second.",
+      "perks": [
+        "Shield block passives",
+        "Staff elemental debuff skills",
+        "Utility-focused Staff nodes over pure damage nodes"
+      ],
+      "rotation": "Anchor on Shield defense, poke with Staff spells, peel for allies when needed.",
+      "best_for": "Flexible group support roles and solo open-world content."
+    },
+    "Seeker": {
+      "weapons": [
+        "Longbow",
+        "Wand & Tome"
+      ],
+      "role": "Healer",
+      "tagline": "Ranged healer with moderate DPS on the side.",
+      "overview": "Seeker uses the Wand as its healing core and the Longbow to contribute meaningful single-target damage and cleanses between heals — a strong pick for players who want to heal without feeling purely passive.",
+      "strengths": [
+        "Solid healing plus real damage contribution",
+        "Great mobility/range",
+        "Good cleanse toolkit"
+      ],
+      "weaknesses": [
+        "Lower burst-heal ceiling than Wand + Tome pure healer builds",
+        "Mana hungry"
+      ],
+      "stat_priority": "Wisdom (primary) > Perception — healing power first, then damage/utility.",
+      "perks": [
+        "Wand healing-over-time and shield skills",
+        "Longbow cleanse/utility shots",
+        "Healing power and cooldown-reduction runes"
+      ],
+      "rotation": "Maintain HoTs with the Wand, weave Longbow shots for damage and cleanses, burst-heal with cooldowns during danger phases.",
+      "best_for": "Dungeon and raid healing where the group also wants ranged pressure."
+    },
+    "Fury": {
+      "weapons": [
+        "Crossbow",
+        "Wand & Tome"
+      ],
+      "role": "Ranged DPS",
+      "tagline": "Mobile burst caster with a wide AoE kit.",
+      "overview": "Fury is a DPS-focused caster that mixes the Crossbow's rapid bursts with the Wand's elemental and curse damage. It excels at high-mobility fights where you need to keep moving and still deal consistent AoE.",
+      "strengths": [
+        "High mobility",
+        "Strong AoE",
+        "Good burst windows"
+      ],
+      "weaknesses": [
+        "Lower single-target ceiling than pure Wand/Staff builds",
+        "Mana management"
+      ],
+      "stat_priority": "Intelligence (primary) > Perception.",
+      "perks": [
+        "Dark Apostacy (Wand mastery) for AoE curse/elemental damage",
+        "Crossbow burst-fire skills for windows of extra damage",
+        "Elemental/curse damage runes on the Wand"
+      ],
+      "rotation": "Open with Wand AoE curses, weave Crossbow bursts on cooldown, reposition constantly to keep uptime.",
+      "best_for": "Open-world AoE farming and mobile PvP skirmishes."
+    },
+    "Battleweaver": {
+      "weapons": [
+        "Crossbow",
+        "Staff"
+      ],
+      "role": "Ranged DPS",
+      "tagline": "Elemental ranged DPS with strong burst windows.",
+      "overview": "Battleweaver combines the Staff's elemental spellcasting with the Crossbow's rapid-fire bursts for a ranged caster/gunner hybrid that can flex between sustained and burst damage.",
+      "strengths": [
+        "Strong ranged burst",
+        "Good AoE from Staff",
+        "Flexible engage range"
+      ],
+      "weaknesses": [
+        "Squishy — no innate defensive tools",
+        "Positioning-dependent"
+      ],
+      "stat_priority": "Intelligence (primary) > Perception.",
+      "perks": [
+        "Staff elemental AoE skills",
+        "Crossbow burst-fire passives",
+        "Cooldown reduction and elemental damage runes"
+      ],
+      "rotation": "Kite while stacking Staff AoE, burst with Crossbow when the target is locked down.",
+      "best_for": "PvE trash clearing and ranged PvP poke comps."
+    },
+    "Invocator": {
+      "weapons": [
+        "Staff",
+        "Wand & Tome"
+      ],
+      "role": "Ranged DPS",
+      "tagline": "Pure spellcaster — the highest magic damage ceiling.",
+      "overview": "Invocator is a full caster build with no melee weapon at all. It stacks Staff elemental damage with the Wand's curse/Dark Apostacy line for one of the most versatile and highest-damage ranged setups in the game.",
+      "strengths": [
+        "Very high sustained ranged damage",
+        "Great AoE and DoT coverage",
+        "Strong versatility"
+      ],
+      "weaknesses": [
+        "No mobility or defensive weapon skills",
+        "Fully mana-dependent"
+      ],
+      "stat_priority": "Intelligence (primary) > Wisdom for mana sustain.",
+      "perks": [
+        "Dark Apostacy (Wand mastery) for AoE/curse damage",
+        "Staff elemental burn/DoT skills",
+        "Elemental damage and cooldown runes"
+      ],
+      "rotation": "Layer DoTs and AoE curses, refresh them on cooldown, burst single targets with high-damage spell combos.",
+      "best_for": "Farming, sustained boss DPS, and AoE-heavy PvE content."
+    },
+    "Liberator": {
+      "weapons": [
+        "Longbow",
+        "Staff"
+      ],
+      "role": "Support",
+      "tagline": "Ranged support/DPS hybrid with strong utility.",
+      "overview": "Liberator blends Longbow precision with Staff utility, offering ranged damage alongside crowd control and support tools rather than committing fully to either healing or pure DPS.",
+      "strengths": [
+        "Good range and mobility",
+        "Useful CC/utility kit",
+        "Flexible role in groups"
+      ],
+      "weaknesses": [
+        "Doesn't out-damage dedicated DPS builds",
+        "Not a primary healer"
+      ],
+      "stat_priority": "Perception/Intelligence balance.",
+      "perks": [
+        "Longbow precision-shot skills",
+        "Staff utility/CC spells",
+        "Balanced damage/utility runes"
+      ],
+      "rotation": "Control the fight with Staff CC, chip damage with Longbow, reposition to stay at range.",
+      "best_for": "Flexible ranged support in dungeons and open-world groups."
+    },
+    "Paladin": {
+      "weapons": [
+        "Greatsword",
+        "Wand & Tome"
+      ],
+      "role": "Support",
+      "tagline": "Melee support build — damage with real healing utility.",
+      "overview": "Paladin fights in melee with the Greatsword but carries the Wand for self-sustain and party support, making it a strong pick for players who want to be in the thick of the fight while still helping the team survive.",
+      "strengths": [
+        "Strong self-sustain",
+        "Good melee damage",
+        "Useful support in a pinch"
+      ],
+      "weaknesses": [
+        "Not a full healer",
+        "Mana management while fighting in melee"
+      ],
+      "stat_priority": "Strength (primary) > Wisdom.",
+      "perks": [
+        "Vital Force (Greatsword) for HP scaling",
+        "Wand healing and cleanse skills",
+        "Hybrid damage/healing runes"
+      ],
+      "rotation": "Fight in melee with Greatsword combos, weave in Wand heals during lulls, cleanse debuffs off yourself or allies.",
+      "best_for": "Solo and small-group play where you need both damage and self-sufficiency."
+    },
+    "Sentinel": {
+      "weapons": [
+        "Greatsword",
+        "Staff"
+      ],
+      "role": "Melee DPS",
+      "tagline": "Melee-magic hybrid with strong AoE and crowd control.",
+      "overview": "Sentinel weaves Staff spells into a Greatsword-based melee rotation, giving you ranged pressure to soften targets before closing in for heavy AoE damage — great crowd control, if a bit unfocused on bosses.",
+      "strengths": [
+        "Strong AoE clear",
+        "Good crowd control",
+        "Flexible engage range"
+      ],
+      "weaknesses": [
+        "Lower single-target boss damage than pure melee builds",
+        "Mana + stamina split"
+      ],
+      "stat_priority": "Strength (primary) > Intelligence.",
+      "perks": [
+        "Vital Force (Greatsword) passive",
+        "Staff elemental AoE for pre-engage damage",
+        "Crowd control skills from both weapons"
+      ],
+      "rotation": "Open at range with Staff AoE, close in with Greatsword CC and heavy hits, retreat to range if overwhelmed.",
+      "best_for": "Trash-clearing, AoE-heavy dungeons, and group PvP zerg fights."
+    },
+    "Outrider": {
+      "weapons": [
+        "Crossbow",
+        "Greatsword"
+      ],
+      "role": "Melee DPS",
+      "tagline": "Melee DPS with a ranged poke fallback.",
+      "overview": "Outrider uses Crossbow poke to soften targets at range, then dives in with the Greatsword to finish the job — flexible engagement range with strong burst once in melee.",
+      "strengths": [
+        "Flexible engage range",
+        "Strong burst on commitment",
+        "Good AoE"
+      ],
+      "weaknesses": [
+        "Mediocre at long range compared to pure ranged builds",
+        "Stamina-hungry"
+      ],
+      "stat_priority": "Strength (primary) > Dexterity.",
+      "perks": [
+        "Vital Force (Greatsword) passive",
+        "Crossbow burst-fire openers",
+        "Heavy-attack and crit runes"
+      ],
+      "rotation": "Poke with Crossbow while closing distance, transition into Greatsword combos on arrival.",
+      "best_for": "Open-world PvP and fights where target distance varies."
+    },
+    "Ranger": {
+      "weapons": [
+        "Greatsword",
+        "Longbow"
+      ],
+      "role": "Melee DPS",
+      "tagline": "Hybrid melee/ranged DPS with strong burst and sustain.",
+      "overview": "Ranger pairs the Longbow's mobility and sustained damage with the Greatsword's burst potential and AoE, letting you kite when needed and commit to melee when you can land a full combo.",
+      "strengths": [
+        "Great mobility",
+        "Strong sustained DPS",
+        "Good AoE burst"
+      ],
+      "weaknesses": [
+        "Jack-of-both-trades — not the top pick in either pure range or pure melee",
+        "Stamina management"
+      ],
+      "stat_priority": "Strength/Dexterity balance.",
+      "perks": [
+        "Vital Force (Greatsword) passive",
+        "Longbow sustained-fire and mobility skills",
+        "Mixed heavy-attack and precision runes"
+      ],
+      "rotation": "Kite with Longbow to build damage, close in with Greatsword for burst finishers.",
+      "best_for": "PvE team DPS and versatile open-world play."
+    },
+    "Infiltrator": {
+      "weapons": [
+        "Longbow",
+        "Dagger"
+      ],
+      "role": "Ranged DPS",
+      "tagline": "Stealthy ranged-to-melee burst assassin.",
+      "overview": "Infiltrator engages from range with the Longbow, then closes for a brutal Dagger finisher — excellent for picking off priority targets in PvP with high mobility and burst.",
+      "strengths": [
+        "Excellent burst",
+        "High mobility",
+        "Strong single-target PvP threat"
+      ],
+      "weaknesses": [
+        "Fragile if caught out of position",
+        "Weaker sustained AoE"
+      ],
+      "stat_priority": "Dexterity (primary) > Perception.",
+      "perks": [
+        "Merciless Form (Dagger) for post-crit attack speed",
+        "Longbow mobility and precision-shot skills",
+        "Critical hit and critical damage runes"
+      ],
+      "rotation": "Open with Longbow shots to soften, gap-close with a Dagger burst combo, disengage if the fight turns.",
+      "best_for": "Small-scale PvP and quick, mobile PvE encounters."
+    },
+    "Scout": {
+      "weapons": [
+        "Crossbow",
+        "Longbow"
+      ],
+      "role": "Ranged DPS",
+      "tagline": "Pure ranged DPS — no melee weapon at all.",
+      "overview": "Scout commits fully to ranged combat, mixing the Crossbow's rapid bursts with the Longbow's sustained precision damage for a build that never has to enter melee range.",
+      "strengths": [
+        "Excellent range and mobility",
+        "Strong burst and sustained damage",
+        "Safe positioning"
+      ],
+      "weaknesses": [
+        "No melee fallback if closed on",
+        "Needs good kiting skill to shine"
+      ],
+      "stat_priority": "Dexterity/Perception balance.",
+      "perks": [
+        "Crossbow burst-fire skills",
+        "Longbow sustained precision shots",
+        "Attack speed and crit runes"
+      ],
+      "rotation": "Kite continuously, alternate Crossbow bursts with Longbow sustained fire, reposition after every few hits.",
+      "best_for": "Ranged PvP poke comps and safe PvE damage from a distance."
+    },
+    "Scorpion": {
+      "weapons": [
+        "Crossbow",
+        "Dagger"
+      ],
+      "role": "Ranged DPS",
+      "tagline": "Deadly burst combo — high skill ceiling, high reward.",
+      "overview": "Scorpion is one of the highest damage-output combos in the game, mixing Crossbow rapid bursts with Dagger crit finishers. It rewards good reflexes and target tracking with devastating single-target burst.",
+      "strengths": [
+        "Very high burst damage",
+        "Strong 1v1 PvP potential",
+        "High skill expression"
+      ],
+      "weaknesses": [
+        "Requires practice to play well",
+        "Fragile"
+      ],
+      "stat_priority": "Dexterity (primary) > Perception.",
+      "perks": [
+        "Merciless Form (Dagger) for post-crit attack speed",
+        "Crossbow burst-fire openers",
+        "Critical hit chance/damage runes on both weapons"
+      ],
+      "rotation": "Open with Crossbow burst to soften, weave Dagger crits for the kill window, reset if the target survives.",
+      "best_for": "High-skill PvP duels and single-target PvE burst checks."
+    },
+    "Darkblighter": {
+      "weapons": [
+        "Wand & Tome",
+        "Dagger"
+      ],
+      "role": "Melee DPS",
+      "tagline": "Stealthy burst caster/assassin — deadly single-target PvP.",
+      "overview": "Darkblighter mixes Dagger stealth and burst with Wand curses and elemental damage, making it a strong single-target assassin build with PvP utility from crowd control and debuffs.",
+      "strengths": [
+        "High single-target burst",
+        "Strong PvP utility from debuffs",
+        "Good stealth/engage tools"
+      ],
+      "weaknesses": [
+        "Weak AoE",
+        "Fragile if focused"
+      ],
+      "stat_priority": "Dexterity (primary) > Intelligence.",
+      "perks": [
+        "Dark Apostacy (Wand mastery) for curse/elemental damage",
+        "Merciless Form (Dagger) for post-crit attack speed",
+        "Debuff-focused Wand nodes to weaken your target"
+      ],
+      "rotation": "Debuff and curse the target from range or stealth, close in with Dagger for the burst finisher.",
+      "best_for": "1v1 PvP and priority-target elimination."
+    },
+    "Spellblade": {
+      "weapons": [
+        "Staff",
+        "Dagger"
+      ],
+      "role": "Melee DPS",
+      "tagline": "Melee-magic hybrid — fast, versatile, high mobility.",
+      "overview": "Spellblade pairs Staff spellcasting with Dagger speed and burst for a fast, magic-infused melee playstyle that's equally comfortable farming or dueling.",
+      "strengths": [
+        "Excellent mobility",
+        "Good burst and AoE mix",
+        "Versatile"
+      ],
+      "weaknesses": [
+        "Split stat investment between Intelligence and Dexterity",
+        "Lower peak single-target DPS than dedicated crit builds"
+      ],
+      "stat_priority": "Intelligence/Dexterity balance.",
+      "perks": [
+        "Merciless Form (Dagger) for post-crit attack speed",
+        "Staff elemental burst and AoE skills",
+        "Mixed elemental and crit runes"
+      ],
+      "rotation": "Open with a Staff spell for damage/CC, follow up with Dagger crit combos, reposition for the next opener.",
+      "best_for": "Farming and versatile solo PvE/PvP play."
+    },
+    "Gladiator": {
+      "weapons": [
+        "Greatsword",
+        "Spear"
+      ],
+      "role": "Melee DPS",
+      "tagline": "Reach-focused melee DPS with strong AoE.",
+      "overview": "A newer weapon-combo build that pairs the Greatsword's heavy AoE with the Spear's reach and crowd control, trading some single-target burst for consistent group-fight AoE pressure.",
+      "strengths": [
+        "Good AoE coverage",
+        "Long effective reach",
+        "Solid group-fight presence"
+      ],
+      "weaknesses": [
+        "Boss (single-target) damage lags behind top-tier melee builds",
+        "Newer weapon — kit still maturing"
+      ],
+      "stat_priority": "Strength (primary) > Constitution.",
+      "perks": [
+        "Vital Force (Greatsword) passive",
+        "Spear reach/CC skills to control multiple targets",
+        "AoE damage and heavy-attack runes"
+      ],
+      "rotation": "Use Spear reach to CC groups, follow with Greatsword AoE sweeps.",
+      "best_for": "Large-scale PvP zerg fights and AoE trash clearing."
+    }
+  }
+}
