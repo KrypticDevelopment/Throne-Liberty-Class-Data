@@ -1,0 +1,140 @@
+{
+  "version": "1.0.0",
+  "mini_bosses": {
+    "Pakilo Naru": {
+      "level": "55+",
+      "type": "Mini Boss",
+      "location": "Black Anvil Forge (top area, Talandre)",
+      "nearest_waypoint": "Black Anvil",
+      "requirements": "Open world. Group recommended.",
+      "spawn_windows": ["Server-specific – check Timetable / map markers"],
+      "spawn_note": "Talandre content. Confirm in-game.",
+      "notes": "Use ramps or steam system to reach the top.",
+      "image": "assets/minibosses/pakilo_naru.png",
+      "loot": {
+        "guaranteed": ["Participation rewards"],
+        "notable": ["Palace Guard's Plate Armor — Rare", "Tier 2 materials — Uncommon"]
+      }
+    },
+    "Daigon": {
+      "level": "55+",
+      "type": "Mini Boss",
+      "location": "Talandre region",
+      "nearest_waypoint": "Nearest Talandre waypoint",
+      "requirements": "Open world. Group recommended.",
+      "spawn_windows": ["Server-specific"],
+      "spawn_note": "Confirm with in-game Timetable.",
+      "notes": "",
+      "image": "assets/minibosses/daigon.png",
+      "loot": {
+        "guaranteed": ["Participation rewards"],
+        "notable": ["Royal Praetor's Gaiters — Rare", "Magic Scale Necklace — Rare"]
+      }
+    },
+    "Manticus Brothers": {
+      "level": "55+",
+      "type": "Mini Boss",
+      "location": "Lightning Forest – Crimson Manor (Talandre)",
+      "nearest_waypoint": "Crimson Manor area",
+      "requirements": "Open world. Strong group recommended. Two bosses (Akman + Deckman).",
+      "spawn_windows": ["Server-specific"],
+      "spawn_note": "Confirm in-game.",
+      "notes": "Two-boss fight.",
+      "image": "assets/minibosses/manticus.png",
+      "loot": {
+        "guaranteed": ["Conquest Participation Award: Manticus"],
+        "notable": ["Akman's Rupturing Bow — Very Rare", "Frenzied Beast Necklace — Rare"]
+      }
+    },
+    "Thuban": {
+      "level": "55+",
+      "type": "Mini Boss",
+      "location": "Nix region",
+      "nearest_waypoint": "Nix area waypoints",
+      "requirements": "Open world. Group recommended.",
+      "spawn_windows": ["Server-specific"],
+      "spawn_note": "Newer Nix content. Check Timetable.",
+      "notes": "Drops skill cores and selection chests.",
+      "image": "assets/minibosses/thuban.png",
+      "loot": {
+        "guaranteed": ["Participation rewards"],
+        "notable": ["Thuban Equipment Selection Chest — Rare", "Various Skill Cores — Rare"]
+      }
+    },
+    "World Elite – Stonegard": {
+      "level": "50+",
+      "type": "World Elite",
+      "location": "Various Stonegard zones",
+      "nearest_waypoint": "Nearest zone waypoint",
+      "requirements": "Open world. Solo or small group.",
+      "spawn_windows": ["Dynamic / map markers"],
+      "spawn_note": "Check map for elite markers.",
+      "notes": "",
+      "image": "assets/minibosses/world_elite.png",
+      "loot": {
+        "guaranteed": ["Participation rewards"],
+        "notable": ["Epic gear pieces — Rare", "Crafting materials — Uncommon"]
+      }
+    },
+    "World Elite – Talandre": {
+      "level": "55+",
+      "type": "World Elite",
+      "location": "Various Talandre zones",
+      "nearest_waypoint": "Nearest Talandre waypoint",
+      "requirements": "Open world. Group recommended for higher tiers.",
+      "spawn_windows": ["Dynamic / map markers"],
+      "spawn_note": "Check map for elite markers.",
+      "notes": "",
+      "image": "assets/minibosses/world_elite_talandre.png",
+      "loot": {
+        "guaranteed": ["Participation rewards"],
+        "notable": ["Tier 2 gear pieces — Rare", "Skill Cores — Rare"]
+      }
+    },
+    "Named Elite – Laslan": {
+      "level": "40–50",
+      "type": "Named Elite",
+      "location": "Various Laslan zones",
+      "nearest_waypoint": "Nearest zone waypoint",
+      "requirements": "Open world. Solo or small group.",
+      "spawn_windows": ["Dynamic / map markers"],
+      "spawn_note": "Check map for elite markers.",
+      "notes": "",
+      "image": "assets/minibosses/named_elite.png",
+      "loot": {
+        "guaranteed": ["Participation rewards"],
+        "notable": ["Epic accessories — Rare", "Materials — Uncommon"]
+      }
+    },
+    "Named Elite – Stonegard": {
+      "level": "45–50",
+      "type": "Named Elite",
+      "location": "Various Stonegard zones",
+      "nearest_waypoint": "Nearest zone waypoint",
+      "requirements": "Open world. Solo or small group.",
+      "spawn_windows": ["Dynamic / map markers"],
+      "spawn_note": "Check map for elite markers.",
+      "notes": "",
+      "image": "assets/minibosses/named_elite_stonegard.png",
+      "loot": {
+        "guaranteed": ["Participation rewards"],
+        "notable": ["Epic gear pieces — Rare"]
+      }
+    },
+    "Elite – Open World": {
+      "level": "Varies",
+      "type": "Elite",
+      "location": "Throughout Solisium",
+      "nearest_waypoint": "Nearest waypoint",
+      "requirements": "Open world. Usually soloable.",
+      "spawn_windows": ["Dynamic"],
+      "spawn_note": "Appear as map markers.",
+      "notes": "",
+      "image": "assets/minibosses/elite.png",
+      "loot": {
+        "guaranteed": ["Participation rewards"],
+        "notable": ["Crafting materials — Uncommon", "Gear pieces — Rare"]
+      }
+    }
+  }
+}
